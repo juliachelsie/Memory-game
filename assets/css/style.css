@@ -1,1 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    background-color: rgb(183, 245, 253);
+    font-family: 'Quicksand', sans-serif;
+    color: #445361;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header {
+    background-color: #FF8CA7;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 1px 2px #f5f9ad;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: auto;
+
+}
+ 
+.heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-board {
+    height: 400px;
+    width: 400px;
+    
+}
+
+.card {
+    height: cal(100% / 4 - 10px);
+    width: cal(100% / 4 - 10px);
+    cursor: pointer;
+    margin: 10px
+}
+
+.card-back {
+    width:100%;
+    height: 100%
+}
+
+.card-back img {
+    max-width: 65px;
+    border-radius: 15px;
+}
+
+.cards {
+    height: 100%;
+    width:100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card, .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icons {
+    display: none;
+}
+
+
