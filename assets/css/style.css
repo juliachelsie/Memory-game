@@ -12,15 +12,16 @@ body {
     flex-direction: column;
     margin: 0;
     letter-spacing: 2px;
+    
 }
 
 /* Header */
 
 header {
-    background-color: #FF8CA7;
+    background-color: #fffab8;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 2px #f5f9ad;
+    box-shadow: 0 1px 2px #ffaff8;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -88,8 +89,9 @@ header {
 /* Footer */
 
 footer {
-    background-color: #FF8CA7;
+    background-color: #fffab8;
     width: 100%;
+    box-shadow: 0 1px 2px #ffaff8;
 }
 
 .thankyou {
@@ -101,4 +103,5 @@ footer {
     margin-right: auto;
     max-width: 350px;
     font-size: 25px;
+    
 }
