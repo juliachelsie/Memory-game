@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 body {
-    background-color: rgb(183, 245, 253);
     font-family: 'Quicksand', sans-serif;
-    color: #445361;
     min-height: 100vh;
     text-align: center;
     align-items: center;
@@ -12,6 +10,7 @@ body {
     flex-direction: column;
     margin: 0;
     letter-spacing: 2px;
+    background: url("../images/grass.jpg") no-repeat center center/cover;
     
 }
 
@@ -35,11 +34,17 @@ header {
     margin-right: auto;
 }
 
-.welcome {
+#welcome {
+    background-color: #fffab8;
+    width: 100%;
+}
+
+.welcome-text {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    
 }
 
 /* Game area */
@@ -49,22 +54,43 @@ header {
     width: 400px;
     margin-bottom: 30px;
     margin-right: 70px;
+    padding: 25px;
     
 }
 
 .card {
+    position: relative;
     height: cal(100% / 4 - 10px);
     width: cal(100% / 4 - 10px);
     cursor: pointer;
-    margin: 10px
+    transform-style: preserve-3d;
+    padding: 25px;
 }
+
+.material-symbols-outlined {
+    background-color: #fffab8;
+}
+
+.check {
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.4s linear;
+    position: absolute;
+}
+
 
 .card-back {
     width:100%;
-    height: 100%
+    height: 100%;
 }
 
 .card-back img {
+    max-width: 65px;
+    border-radius: 15px;
+}
+
+.card-front img {
     max-width: 65px;
     border-radius: 15px;
 }
@@ -76,16 +102,49 @@ header {
     flex-wrap: wrap;
 }
 
-.card, .cards {
+.card, .cards, .check {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card-icons {
-    display: none;
+
+.card-front {
+    width: 100%;
+    height: 100%
 }
 
+
+.card .card-back {
+    transform: rotateY(-180deg);
+}
+
+
+.card-front span {
+    color:#ffaff8;
+    font-size: 65px;
+    font-weight:bold;
+    text-shadow: 1px 1px #383833;
+    border-radius: 15px;
+}
+
+.card .card-back {
+    /* display: none; */
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card-front {
+    transform: rotateY(180deg);
+} 
+
+.card:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+
+.score {
+    background-color: #fffab8;
+}
 /* Footer */
 
 footer {
@@ -104,4 +163,9 @@ footer {
     max-width: 350px;
     font-size: 25px;
     
+}
+
+/* Media query: tablets and larger (768 and up) */
+@media screen and (min-width :768px) {
+
 }
