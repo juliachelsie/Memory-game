@@ -77,6 +77,8 @@ header {
     backface-visibility: hidden;
     transition: transform 0.4s linear;
     position: absolute;
+    user-select: none;
+    pointer-events: none;
 }
 
 
@@ -129,15 +131,15 @@ header {
 }
 
 .card .card-back {
-    /* display: none; */
+    /* display: none;  */
     transform: rotateY(-180deg);
 }
 
-.card:hover .card-front {
+.card.turn .card-front {
     transform: rotateY(180deg);
 } 
 
-.card:hover .card-back {
+.card.turn .card-back {
     transform: rotateY(0deg);
 }
 
