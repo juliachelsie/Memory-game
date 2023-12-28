@@ -143,6 +143,27 @@ header {
     transform: rotateY(0deg);
 }
 
+.card.wobble {
+    animation: wobble 0.4s ease-in-out;
+}
+
+@keyframes wobble {
+    0%,100% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-13px);
+    }
+    40% {
+        transform: translateX(13px);
+    }
+    60% {
+        transform: translateX(-8px);
+    }
+    80% {
+        transform: translateX(8px);
+    }
+}
 
 .score {
     background-color: #fffab8;

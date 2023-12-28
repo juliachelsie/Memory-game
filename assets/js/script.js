@@ -15,27 +15,33 @@ function turnCard(e) {
 
     secondCard = cardClicked;
 
-    let firstCardImg = firstCard.querySelector('img1').src,
-        secondCardImg = secondCard.querySelector('img2').src;
+    let firstCardImg = firstCard.querySelector('img').src,
+        secondCardImg = secondCard.querySelector('img').src;
     cardsMatch(firstCardImg, secondCardImg);
     
+    
 }
-
-function cardsMatch(img1, img2) {
-    if (img1==img2) {
-        firstCard.removeEventListener('click', 'turnCard'),
-        secondCard.removeEventListener('click', 'turnCard');
+    // Function if make the cards match //
+function cardsMatch(firstCardImg, secondCardImg) {
+    if (firstCardImg == secondCardImg) {
+        firstCard.removeEventListener('click', turnCard),
+        secondCard.removeEventListener('click', turnCard);
 
         firstCard = secondCard = '';
         return;
     }
-    
-    
-    setTimeout(() => {
-        firstCard.classList.remove('turn'),
-        secondCard.classList.remove('turn');
 
-        firstCard = secondCard = '';
+    // If cards not matc //
+    setTimeout(() =>  {
+    firstCard.classList.add('wobble');
+    secondCard.classList.add('wobble');
+}, 500);
+
+    setTimeout(() => {
+    firstCard.classList.remove('wobble', 'turn');
+    secondCard.classList.remove('wobble', 'turn');
+
+    firstCard = secondCard = '';
     }, 1000);
 }
 
