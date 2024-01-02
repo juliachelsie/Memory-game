@@ -65,11 +65,11 @@ header {
 
 .card {
     position: relative;
-    height: cal(100% / 4 - 10px);
-    width: cal(100% / 4 - 10px);
+    /*height: cal(100% / 4 - 10px);
+    width: cal(100% / 4 - 10px); */
     cursor: pointer;
     transform-style: preserve-3d;
-    padding: 25px;
+    padding: 50px;
 }
 
 .material-symbols-outlined {
@@ -191,6 +191,17 @@ footer {
     max-width: 350px;
     font-size: 25px;
     
+}
+
+#social-networks {
+    justify-content: space-evenly;
+        list-style-type: none;
+        display: flex;
+        padding-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 350px;
+        font-size: 25px;
 }
 
 /* Media query: tablets and larger (768 and up) */
