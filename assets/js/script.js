@@ -32,6 +32,7 @@ function cardsMatch(firstCardImg, secondCardImg) {
             setTimeout(() => {
                 cardShuffle();
             },2000);
+            alert("Congratulations, You won the game! :D"),1000;
         }
         firstCard.removeEventListener('click', turnCard),
         secondCard.removeEventListener('click', turnCard);
@@ -74,6 +75,7 @@ function cardShuffle(){
         card.addEventListener('click', turnCard);
     });
 }
+
 
 cardShuffle();
 
