@@ -3,30 +3,30 @@ Memory-game is, as it describes i the title, a memory-game. With happy colours a
 
 ## Existing features
 
- -__Header__
+__Header__
 - The website have a header with the text "Memory-Game!"
-![Header]()
+![Header](https://github.com/juliachelsie/Memory-game/blob/main/media/header.PNG)
 
--__Welcome-text and rules__
--Under the header there is a text that welcomes the user and explains how the game works in a easy way. 
-![Welcome-text]()
+__Welcome-text and rules__
+- Under the header there is a text that welcomes the user and explains how the game works in a easy way. 
+![Welcome-text](https://github.com/juliachelsie/Memory-game/blob/main/media/welcome-memory.PNG)
 
--__Game-board__
--The gameboard have 16 cards, which the user can click to turn. The card has question marks on them, and when they are turned there is cute animals. 
-![Frontside]()
-![Backside]()
+__Game-board__
+- The gameboard have 16 cards, which the user can click to turn. The card has question marks on them, and when they are turned there is cute animals. 
+![Frontside](https://github.com/juliachelsie/Memory-game/blob/main/media/board.PNG)
+![Backside](https://github.com/juliachelsie/Memory-game/blob/main/media/turnedcards.PNG)
 
--__Music__
--There is a option for the user to play music while playing the game. The music is very friendly and happy.
-![Music]()
+__Music__
+- There is a option for the user to play music while playing the game. The music is very friendly and happy.
+![Music](https://github.com/juliachelsie/Memory-game/blob/main/media/audiopic.PNG)
 
--__Alert__
--When the user wins the game there is an alert popping up and congratulates the user.
-![Alert]()
+__Alert__
+- When the user wins the game there is an alert popping up and congratulates the user.
+![Alert](https://github.com/juliachelsie/Memory-game/blob/main/media/congrats.PNG)
 
--__Footer__
--At the bottom of the page there is a footer that contains a text that thank the user for playing the game, and two links to social media.
-![Footer]()
+__Footer__
+- At the bottom of the page there is a footer that contains a text that thank the user for playing the game, and two links to social media.
+![Footer](https://github.com/juliachelsie/Memory-game/blob/main/media/footer.PNG)
 
 ## Design
 
