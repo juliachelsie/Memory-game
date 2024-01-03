@@ -7,7 +7,6 @@ Memory-game is, as it describes i the title, a memory-game. With happy colours a
 - Google Fonts was used for the following font:
 - Quicksand is used on the body and heading, and is a sans-serif font.
 
-
 ## Deployment
 
 - The site was deployed to Github pages. And the steps i followed were:

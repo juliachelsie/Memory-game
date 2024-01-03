@@ -8,10 +8,9 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!---Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!---Font awesome-->
     <script src="https://kit.fontawesome.com/032f9bfe1a.js" crossorigin="anonymous"></script>
     <title>Memory-Game</title>
@@ -27,7 +26,7 @@
             <h2>Welcome to this game where you try your memory-skills.</h2>
             <h3>How the game works:</h3>
             <p class="rules">Start with turning over 2 cards. If the pictures match, just keep turning the cards.<br> If they do not match the cards are turned over again.
-            Try to remember where You have seen cards, so You can use them to make a match. </p>
+            Try to remember where You have seen cards, so You can use them to make a match. <br> Good Luck!</p>
         </div>
     </div>
     <!---Gameboard area-->
@@ -197,10 +196,17 @@
             </ul>
         </div>
     </div>
+    <div id="audio">
+        <p id="audio-p">Click me to play some music while you enjoying the game! <br> <i class="fa-solid fa-arrow-down" style="color: #ffaff8;"></i></p>
+        <audio controls>
+            <source src="assets/audio/music-file.mp3">
+            Your browser does not support the audio element
+        </audio>
+    </div>
     <!---Footer-->
     <footer>
         <p class="thankyou">Thank you for playing the game!</p>
-        <p>Visit us on our social media and find more games!</p>
+        <p id="visit">Visit us on our social media and find more games!</p>
         <ul id="social-networks">
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
