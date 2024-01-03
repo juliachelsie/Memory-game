@@ -6,6 +6,10 @@ Memory-game is, as it describes i the title, a memory-game. With happy colours a
 - __Typography__
 - Google Fonts was used for the following font:
 - Quicksand is used on the body and heading, and is a sans-serif font.
+  
+- __Colour__
+- I used this color scheme on the website. I think the palette goes well with the theme and gives a friendly and happy impression to the user.
+![Color scheme](https://github.com/juliachelsie/Memory-game/blob/main/media/coolors-memory.PNG)
 
 ## Deployment
 
@@ -14,7 +18,7 @@ Memory-game is, as it describes i the title, a memory-game. With happy colours a
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - 
+The live link can be found here - https://juliachelsie.github.io/Memory-game
 
 ## Credits
 
@@ -25,3 +29,4 @@ The live link can be found here -
 
 ### Media
 -The images i used for the memory cards was taken from [Freepic](https://www.freepik.com/free-photos-vectors/memory-game)
+-The music i used is taken from [Zapsplat](https://www.zapsplat.com/)

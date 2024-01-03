@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
+
 body {
     font-family: 'Quicksand', sans-serif;
     min-height: 100vh;
@@ -172,6 +173,9 @@ header {
     box-shadow: 0 1px 2px #ffaff8;
     border-radius: 15px;
     margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
 }
 
 #audio-p{
