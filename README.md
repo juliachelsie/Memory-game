@@ -1,6 +1,33 @@
 # Memory-game
 Memory-game is, as it describes i the title, a memory-game. With happy colours and images with animals it is a fun way for children to practise their memory skills.
 
+## Existing features
+
+ -__Header__
+- The website have a header with the text "Memory-Game!"
+![Header]()
+
+-__Welcome-text and rules__
+-Under the header there is a text that welcomes the user and explains how the game works in a easy way. 
+![Welcome-text]()
+
+-__Game-board__
+-The gameboard have 16 cards, which the user can click to turn. The card has question marks on them, and when they are turned there is cute animals. 
+![Frontside]()
+![Backside]()
+
+-__Music__
+-There is a option for the user to play music while playing the game. The music is very friendly and happy.
+![Music]()
+
+-__Alert__
+-When the user wins the game there is an alert popping up and congratulates the user.
+![Alert]()
+
+-__Footer__
+-At the bottom of the page there is a footer that contains a text that thank the user for playing the game, and two links to social media.
+![Footer]()
+
 ## Design
 
 - __Typography__

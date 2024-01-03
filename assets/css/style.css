@@ -181,6 +181,7 @@ header {
 #audio-p{
     padding-left: 10px;
     padding-right: 10px;
+    font-weight: bold;
 }
 /* Footer */
 
@@ -209,7 +210,7 @@ footer {
         padding-left: 10px;
         margin-left: auto;
         margin-right: auto;
-        max-width: 350px;
+        max-width: 150px;
         font-size: 25px;
 }
 
