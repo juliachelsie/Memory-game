@@ -76,7 +76,7 @@ function cardShuffle(){
     });
 }
 
-
+    // Calling the cardShuffle function //
 cardShuffle();
 
 cards.forEach((card) => {
