@@ -66,11 +66,11 @@ There is a bug in the javascript when turning the cards. If i press one card twi
 ### How does it look on different screen sizes?
 I have tested how the website look on different screen sixes, here how it look:
 - __Desktop__
-![Desktop]()
+![Desktop](https://github.com/juliachelsie/Memory-game/blob/main/media/ondesktop.PNG)
 - __Tablet__
-![Tablet]()
+![Tablet](https://github.com/juliachelsie/Memory-game/blob/main/media/onipad.PNG)
 - __Mobile__
-![Mobile]()
+![Mobile](https://github.com/juliachelsie/Memory-game/blob/main/media/onmobile.PNG)
 
 ## Deployment
 
