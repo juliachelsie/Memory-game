@@ -30,9 +30,9 @@ function cardsMatch(firstCardImg, secondCardImg) {
         cardMatched++;
         if (cardMatched == 8) {
             setTimeout(() => {
-                cardShuffle();
+                cardShuffle(); alert("Congratulations, You won the game! :D");
             },2000);
-            alert("Congratulations, You won the game! :D"),1000;
+            
         }
         firstCard.removeEventListener('click', turnCard),
         secondCard.removeEventListener('click', turnCard);

@@ -14,7 +14,7 @@ __Welcome-text and rules__
 __Game-board__
 - The gameboard have 16 cards, which the user can click to turn. The card has question marks on them, and when they are turned there is cute animals. 
 ![Frontside](https://github.com/juliachelsie/Memory-game/blob/main/media/board.PNG)
-![Backside](https://github.com/juliachelsie/Memory-game/blob/main/media/turnedcards.PNG)
+![Backside](https://github.com/juliachelsie/Memory-game/blob/main/media/turnedcards1.PNG)
 
 __Music__
 - There is a option for the user to play music while playing the game. The music is very friendly and happy.
@@ -43,19 +43,25 @@ __Footer__
 ### Testing code via validators
 
 - __HTML__
-- No errors were returned when passing through the official [W3C validator]()
+- No errors were returned when passing through the official [W3C validator](https://github.com/juliachelsie/Memory-game/blob/main/media/htmlvalidator.PNG)
 
 - __CSS__
-- No errors were returned when passing through the official [Jigsaw]()
+- No errors were returned when passing through the official [Jigsaw](https://github.com/juliachelsie/Memory-game/blob/main/media/cssvalidator.PNG)
 
 - __Javascript__
-- No errors were returned when passing through the official [JSHint]()
+- No errors were returned when passing through the official [JSHint]
 
 ### Testing via lighthouse
 - __Desktop__
-![Desktop]()
+![Desktop](https://github.com/juliachelsie/Memory-game/blob/main/media/desktoplighthouse.PNG)
 - __Mobile__
-![Mobile]()
+![Mobile](https://github.com/juliachelsie/Memory-game/blob/main/media/mobilelighthouse.PNG)
+
+### Fixed bugs
+There was a bug in the javascript. When the game is finished and all the cards are matched there is a alert message that congratulates the user, but the alert message popped up before the last card was turned. I fixed this by editing my code and moving the alert message to the right place.
+
+### Unfixed bugs
+There is a bug in the javascript when turning the cards. If i press one card twice, the card stays on that side. And i have to reload the page and start over. This is something i would like to fix in the future. 
 
 ## Deployment
 
