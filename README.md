@@ -38,6 +38,25 @@ __Footer__
 - I used this color scheme on the website. I think the palette goes well with the theme and gives a friendly and happy impression to the user.
 ![Color scheme](https://github.com/juliachelsie/Memory-game/blob/main/media/coolors-memory.PNG)
 
+## Testing
+
+### Testing code via validators
+
+- __HTML__
+- No errors were returned when passing through the official [W3C validator]()
+
+- __CSS__
+- No errors were returned when passing through the official [Jigsaw]()
+
+- __Javascript__
+- No errors were returned when passing through the official [JSHint]()
+
+### Testing via lighthouse
+- __Desktop__
+![Desktop]()
+- __Mobile__
+![Mobile]()
+
 ## Deployment
 
 - The site was deployed to Github pages. And the steps i followed were:
