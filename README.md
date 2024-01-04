@@ -63,6 +63,15 @@ There was a bug in the javascript. When the game is finished and all the cards a
 ### Unfixed bugs
 There is a bug in the javascript when turning the cards. If i press one card twice, the card stays on that side. And i have to reload the page and start over. This is something i would like to fix in the future. 
 
+### How does it look on different screen sizes?
+I have tested how the website look on different screen sixes, here how it look:
+- __Desktop__
+![Desktop]()
+- __Tablet__
+![Tablet]()
+- __Mobile__
+![Mobile]()
+
 ## Deployment
 
 - The site was deployed to Github pages. And the steps i followed were:
