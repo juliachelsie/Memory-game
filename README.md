@@ -53,7 +53,8 @@ The live link can be found here - https://juliachelsie.github.io/Memory-game
 
 - I found some information about how to get an image to wobble at [UnusedCSS](https://unused-css.com/blog/css-shake-animation)
 - The icons i used for the social media links was taken from [Font Awesome](https://fontawesome.com/)
+- I found imformation about ho to implement audio in html at [W3Schools](https://www.w3schools.com/html/html5_audio.asp)
 
 ### Media
--The images i used for the memory cards was taken from [Freepic](https://www.freepik.com/free-photos-vectors/memory-game)
--The music i used is taken from [Zapsplat](https://www.zapsplat.com/)
+- The images i used for the memory cards was taken from [Freepic](https://www.freepik.com/free-photos-vectors/memory-game)
+- The music i used is taken from [Zapsplat](https://www.zapsplat.com/)
