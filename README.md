@@ -24,6 +24,9 @@ __Alert__
 - When the user wins the game there is an alert popping up and congratulates the user.
 ![Alert](https://github.com/juliachelsie/Memory-game/blob/main/media/congrats.PNG)
 
+- __Fanfare__
+- When the game is finished there is a fanfare playing in the background to celebrate the win.
+
 __Footer__
 - At the bottom of the page there is a footer that contains a text that thank the user for playing the game, and two links to social media.
 ![Footer](https://github.com/juliachelsie/Memory-game/blob/main/media/footer.PNG)
@@ -90,6 +93,7 @@ The live link can be found here - https://juliachelsie.github.io/Memory-game
 - I found imformation about ho to implement audio in html at [W3Schools](https://www.w3schools.com/html/html5_audio.asp)
 - The palette was created on [Coolors](https://coolors.co/)
 - I used the teaching materials from [Code Institute](https://codeinstitute.net/se/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+SWE+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14660337051&hsa_grp=134087657984&hsa_ad=635849372549&hsa_src=g&hsa_tgt=aud-594467886660:kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiAy9msBhD0ARIsANbk0A-KzWfEWIEKro0lAjCWlRs39NXo9RYt9D-dWoWORVO4s9uSL8000pcaArUhEALw_wcB)
+- I found information on how to implement sound effets on [https://medium.com/](https://noaheakin.medium.com/adding-sound-to-your-js-web-app-f6a0ca728984)
 
 ### Media
 - The images i used for the memory cards was taken from [Freepic](https://www.freepik.com/free-photos-vectors/memory-game)
