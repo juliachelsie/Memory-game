@@ -58,7 +58,7 @@ header {
 
 .game-board {
     height: 400px;
-    width: 400px;
+    width: 360px;
     margin-bottom: 30px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -70,7 +70,7 @@ header {
     position: relative;
     cursor: pointer;
     transform-style: preserve-3d;
-    padding: 50px;
+    padding: 45px;
 }
 
 .material-symbols-outlined {
@@ -186,7 +186,8 @@ header {
     padding-right: 10px;
     font-weight: bold;
 }
-/* Footer */
+
+    /* Footer */
 
 footer {
     background-color: #fffab8;

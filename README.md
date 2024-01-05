@@ -1,5 +1,5 @@
 # Memory-game
-Memory-game is, as it describes i the title, a memory-game. With happy colours and images with animals it is a fun way for children to practise their memory skills.
+Memory-game is, as it describes i the title, a memory-game. With happy colours and images with animals it is a fun and useful way for children to practise their memory skills.
 
 ## Existing features
 
@@ -24,7 +24,7 @@ __Alert__
 - When the user wins the game there is an alert popping up and congratulates the user.
 ![Alert](https://github.com/juliachelsie/Memory-game/blob/main/media/congrats.PNG)
 
-- __Fanfare__
+__Fanfare__
 - When the game is finished there is a fanfare playing in the background to celebrate the win.
 
 __Footer__
