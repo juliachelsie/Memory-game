@@ -3,6 +3,8 @@ const cards = document.querySelectorAll('.card');
 let firstCard, secondCard;
 let disableDeck = false;
 let cardMatched = 0;
+let fanfareSound = new Audio('assets/audio/fanfare.mp3');
+fanfareSound.play()
 
 
     // Function to turn the cards //
@@ -29,8 +31,10 @@ function cardsMatch(firstCardImg, secondCardImg) {
     if (firstCardImg == secondCardImg) {
         cardMatched++;
         if (cardMatched == 8) {
+            fanfareSound.play();
             setTimeout(() => {
-                cardShuffle(); alert("Congratulations, You won the game! :D");
+                cardShuffle();
+                alert("Congratulations, You won the game! :D");
             },2000);
             
         }

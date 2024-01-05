@@ -53,6 +53,7 @@ header {
 .board-holder {
     margin-bottom: auto;
     margin-top: auto;
+    margin-right: 10px
 }
 
 .game-board {
@@ -61,6 +62,7 @@ header {
     margin-bottom: 30px;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-left: 10px;
     
 }
 
